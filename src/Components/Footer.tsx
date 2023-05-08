@@ -12,7 +12,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export function Footer(){
     return(
-        <Container style={{backgroundColor:'#0A0E17', height:'30vh', }} maxWidth={false}>
+        <Container style={{backgroundColor:'#0A0E17' }} maxWidth={false}>
             <Container maxWidth={false} style={{display:'flex', flexDirection:'column', alignItems:'center', paddingTop:'20px'}}>
                 <Typography variant='h5' textTransform={'uppercase'} textAlign={'center'}>
                     Se junte a maior comunidade esportiva do mundo

@@ -18,11 +18,11 @@ export function Sobre(){
                 <Image src={coin} alt="Logo angulo" style={{padding:'20px', animation: 'pulse 8.5s ease-in-out infinite'}}/>
             </Container>
             <Container maxWidth={false}  >
-                <Box style={{border: '4px double white', borderRadius:'10px', boxShadow: '0px 0px 100px 0px rgba(255, 255, 255, 0.3)'}} >
-                    <Box paddingBottom={2} textAlign={'center'} paddingTop={10} fontWeight={'normal'} textTransform={'uppercase'}>
-                        <Typography variant='h3' >Visão geral</Typography>
+                <Box style={{border: '4px double white', borderRadius:'10px', boxShadow: '0px 0px 100px 0px rgba(255, 255, 255, 0.3)'}}  >
+                    <Box paddingBottom={2} textAlign={'center'} paddingTop={10} fontWeight={'normal'} textTransform={'uppercase'} className='box-tip'>
+                        <Typography variant='h3' className='titulo-dois'  >Visão geral</Typography>
                     </Box>
-                    <Typography fontSize='1.3rem' lineHeight={2} textAlign={'center'} padding={5}>
+                    <Typography fontSize='1.3rem' lineHeight={2} textAlign={'center'} padding={5} className='titulo-um'>
                             Angulo Coin conecta o mundo tecnológico com todas as áreas esportivas.                      
                             Games, ligas esportivas, atletas, manufatura, premiações, apostas, mundo profissional, divisões de base,
                             aplicativo esportivo, a Angulo está em todas as partes.                     

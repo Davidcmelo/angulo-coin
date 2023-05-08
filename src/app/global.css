@@ -30,7 +30,6 @@ body{
   background-attachment: fixed;
   background-position: center center;
   height: 70vh;
-
 }
 
 .features{
@@ -81,3 +80,148 @@ body{
     transform: rotate(0deg);
   }
 }
+
+
+
+@media screen  and (max-width:768px){
+/*SOBRE*/
+  .titulo-um{
+  font-size: 0.7rem;
+  padding: 5px;
+  
+}
+.titulo-dois{
+  font-size: 1rem;
+  padding-top: 20px;
+}
+.box-tip{
+  padding-top: 10px;
+}
+
+.imgs{
+  height: 50vh !important;
+  width: 100vw !important;
+}
+
+.seta{
+  font-size: 1rem;
+}
+/* OPORTUNIDADE*/
+
+.oport{
+  font-size: 2rem;
+  padding-top: 10px;
+}
+
+.text{
+  font-size: 0.7rem;
+}
+
+.cartao{
+  display: block;
+  height: 130px !important;
+  width: 300px !important;
+
+} 
+
+/* OQUE FAZEMOS*/
+.what-h3{
+  font-size: 2rem;
+  padding: 5px;
+}
+.wtext{
+  font-size: 0.7rem;
+  padding: 5px;
+  display: flex;
+}
+.bandeira{
+  display: none;
+}
+.trof{
+  padding: 0px;
+
+}
+.pad{
+  padding-right: 0;
+}
+.colu{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+/* SOCIAIS*/
+.favela{
+  background-image: linear-gradient(to left, rgb(0, 0, 0)70%,transparent, rgba(0, 0, 0, 0),transparent), url(./imagens/favela.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100%;
+}
+
+.wtext4{
+  display: none;
+}
+
+.topo{
+  padding-top: 30px !important;
+  padding-bottom: 10px !important;
+}
+
+/* SOLUÇÕES*/
+
+.what-h5{
+  font-size: 1.7rem;
+
+}
+
+.tchau{
+  display: none;
+}
+
+.img-bola{
+  height: 100px !important;
+  padding: 0px;
+}
+.img-bolae{
+  height: 100px !important;
+  padding: 0px;
+  width: 100px !important ; 
+}
+
+.bolas{
+  padding: 5px !important;
+  padding-top: 50px !important;
+}
+
+/* CARACTERISTICAS*/
+
+.wtext7{
+  font-size: 0.6rem;
+}
+
+.features{
+  padding: 10px;
+}
+
+
+/* Roteiro*/
+
+.rot{
+  font-size: 2rem;
+}
+.rotp{
+  padding-top: 10px !important;
+}
+
+.txtroad{
+  font-size: 0.7rem;
+}
+
+
+
+}
+
+

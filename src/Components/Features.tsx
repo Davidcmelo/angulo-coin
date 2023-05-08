@@ -19,29 +19,29 @@ import anguloapp from '../app/imagens/store.jpeg'
 
 export function Features(){
     return(
-        <Container id="features" className='features' style={{height:'100vh', paddingTop:'50px'}} maxWidth={false}>
-            <Typography textTransform={'uppercase'} variant='h2' fontWeight={'normal'} textAlign={'center'} paddingBottom={3}>
+        <Container id="features" className='features' style={{height:'100vh', paddingTop:'50px'}} maxWidth={false} >
+            <Typography textTransform={'uppercase'} variant='h2' fontWeight={'normal'} textAlign={'center'} paddingBottom={3} className='what-h5'>
                 Caracteristicas
             </Typography>
-            <Typography textTransform={'uppercase'} variant='h6' fontWeight={'normal'} textAlign={'center'} paddingBottom={3}>
+            <Typography textTransform={'uppercase'} variant='h6' fontWeight={'normal'} textAlign={'center'} paddingBottom={3} className='wtext7'>
                 Nossas principais ferramentas
             </Typography>
             <Container >
                 <Container style={{display:'flex', alignItems:'center', justifyContent:'space-around', paddingBottom:'30px'}} >
-                    <Image className='hover-image' src={bet} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
-                    <Image className="hover-image" src={anguloapp} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
-                    <Image className="hover-image" src={golden} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
-                    <Image className="hover-image" src={lions} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
+                    <Image className='hover-image img-bola ' src={bet} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
+                    <Image className="hover-image img-bola" src={anguloapp} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
+                    <Image className="hover-image img-bola" src={golden} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
+                    <Image className="hover-image img-bola" src={lions} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
                 </Container>
                 <Container style={{display:'flex', alignItems:'center', justifyContent:'space-around',paddingBottom:'30px'}}>
-                    <Image className="hover-image" src={liga} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
-                    <Image className="hover-image" src={manager} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
-                    <Image className="hover-image" src={insider} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
-                    <Image className="hover-image" src={samba} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
+                    <Image className="hover-image img-bola" src={liga} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
+                    <Image className="hover-image img-bola" src={manager} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
+                    <Image className="hover-image img-bola" src={insider} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
+                    <Image className="hover-image img-bola" src={samba} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
                 </Container>
                 <Container style={{display:'flex', alignItems:'center', justifyContent:'space-around'}}>
-                    <Image className="hover-image" src={fantasy} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
-                    <Image className="hover-image" src={store} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
+                    <Image className="hover-image img-bolae" src={fantasy} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
+                    <Image className="hover-image img-bolae" src={store} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
                 </Container>
                
             </Container>
