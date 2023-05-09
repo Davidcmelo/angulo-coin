@@ -19,7 +19,7 @@ import anguloapp from '../app/imagens/store.jpeg'
 
 export function Features(){
     return(
-        <Container id="features" className='features' style={{ paddingTop:'50px' , textAlign:'center', width:'100%'}} >
+        <Container id="features" className='features' style={{ paddingTop:'50px' , textAlign:'center'}} maxWidth={false} >
             <Typography textTransform={'uppercase'} variant='h2' fontWeight={'normal'} textAlign={'center'} paddingBottom={3} className='what-h9'>
                 Caracteristicas
             </Typography>

@@ -38,9 +38,6 @@ body{
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  background-size: 100% auto;
-  max-width: 100%;
-
 }
 
 .hover-image:hover {
@@ -237,6 +234,7 @@ body{
 .features{
   padding: 10px;
 }
+
 
 
 /* Roteiro*/
