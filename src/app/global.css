@@ -199,13 +199,13 @@ body{
 }
 
 .img-bola{
-  height: 100px !important;
-  padding: 0px;
+  height: 70px !important;
+  padding: 2px;
 }
 .img-bolae{
-  height: 100px !important;
-  padding: 0px;
-  width: 100px !important ; 
+  height: 70px !important;
+  padding: 2px;
+  width: 70px !important ; 
 }
 
 .bolas{
@@ -219,7 +219,7 @@ body{
   font-size: 0.6rem;
 }
 .what-h9{
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .features{
