@@ -12,7 +12,7 @@ import trofeu from '../app/imagens/trofeu.png'
 
 export function What(){
     return(
-        <Container id="what" maxWidth={false} style={{ display:'flex', paddingTop:'30px',textAlign:'center', boxShadow: 'inset 0 0 100px rgba(0, 0, 0, 0.9), 0 0 100px rgba(0, 0, 0, 0.9)'}}>
+        <Container id="what" maxWidth={false} style={{ display:'flex', paddingTop:'30px',textAlign:'center', boxShadow: 'inset 0 0 100px rgba(0, 0, 0, 0.9), 0 0 100px rgba(0, 0, 0, 0.9)',paddingBottom:'50px' }}>
             <Container className='pad'>
                 <Typography variant='h3' textTransform={'uppercase'} padding={5} className='what-h3'>
                     Oque fazemos
@@ -36,7 +36,7 @@ export function What(){
                     <Image src={argentina} alt="Logo angulo" style={{animation: 'pulse 5s ease-in-out infinite', width:'120px'}} className='bandeira'/>
                 </Box>
             </Container>
-            <Container style={{display:'flex', alignItems:'center' }} className='colu'>
+            <Container style={{display:'flex', alignItems:'center'}} className='colu'>
                 <Image src={trofeu} alt="Logo angulo" style={{padding:'20px',animation:' swing 5s infinite' }} className='trof' />
                 <Typography fontSize={'1.5rem'} fontStyle={'italic'} display={'flex'} justifyContent={'center'} alignItems={'center'} flexDirection={'column'} className='wtext'>
                     A partir de dezembro deste ano: Copa Mundial que será realizada em Madrid.

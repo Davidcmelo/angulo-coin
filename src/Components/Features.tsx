@@ -20,7 +20,7 @@ import anguloapp from '../app/imagens/store.jpeg'
 export function Features(){
     return(
         <Container id="features" className='features' style={{ paddingTop:'50px'}} maxWidth={false} >
-            <Typography textTransform={'uppercase'} variant='h2' fontWeight={'normal'} textAlign={'center'} paddingBottom={3} className='what-h5'>
+            <Typography textTransform={'uppercase'} variant='h2' fontWeight={'normal'} textAlign={'center'} paddingBottom={3} className='what-h9'>
                 Caracteristicas
             </Typography>
             <Typography textTransform={'uppercase'} variant='h6' fontWeight={'normal'} textAlign={'center'} paddingBottom={3} className='wtext7'>
@@ -39,7 +39,7 @@ export function Features(){
                     <Image className="hover-image img-bola" src={insider} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
                     <Image className="hover-image img-bola" src={samba} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
                 </Container>
-                <Container style={{display:'flex', alignItems:'center', justifyContent:'space-around'}}>
+                <Container style={{display:'flex', alignItems:'center', justifyContent:'space-around', paddingBottom:'70px'}}>
                     <Image className="hover-image img-bolae" src={fantasy} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
                     <Image className="hover-image img-bolae" src={store} alt="Logo angulo" style={{width:'210px' , height:'210px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}}/>
                 </Container>

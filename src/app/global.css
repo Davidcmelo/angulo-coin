@@ -29,7 +29,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  height: 70vh;
+ 
 }
 
 .features{
@@ -37,6 +37,8 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
+  background-size: cover;
+
 }
 
 .hover-image:hover {
@@ -119,7 +121,7 @@ body{
 /* OPORTUNIDADE*/
 
 .oport{
-  font-size: 2rem;
+  font-size: 1.75rem;
   padding-top: 100px;
 }
 
@@ -163,22 +165,22 @@ body{
 
 /* SOCIAIS*/
 .favela{
-  background-image: linear-gradient(to left, rgb(0, 0, 0)70%,transparent, rgba(0, 0, 0, 0),transparent), url(./imagens/favela.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./imagens/favela.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  height: 100%;
 }
 
-.wtext4{
-  display: none;
-}
-
-.topo{
+.topo-social{
   padding-top: 30px !important;
   padding-bottom: 10px !important;
-  font-size: 1.5rem;
+  font-size: 3rem;
+  display: flex;
+
+}
+.cont-social{
+  width: 100% !important;
 }
 
 /* SOLUÇÕES*/
@@ -215,6 +217,9 @@ body{
 
 .wtext7{
   font-size: 0.6rem;
+}
+.what-h9{
+  font-size: 1rem;
 }
 
 .features{

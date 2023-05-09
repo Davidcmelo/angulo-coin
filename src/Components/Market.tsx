@@ -24,7 +24,7 @@ export function Market(){
                     oportunidade aos menos favorecidos.
                 </Typography>
             </Container>
-            <Container maxWidth={false} style={{display:'flex', justifyContent:'space-around', alignItems:'center'}}>
+            <Container maxWidth={false} style={{display:'flex', justifyContent:'space-around', alignItems:'center', paddingBottom:'50px'}}>
                 <Card style={{height:'400px', width:'300px'}} className="cartao" >
                 <Image src={social} alt="social" className="cartaom" />
                 </Card>
