@@ -27,8 +27,7 @@ export function Sobre(){
                             Games, ligas esportivas, atletas, manufatura, premiações, apostas, mundo profissional, divisões de base,
                             aplicativo esportivo, a Angulo está em todas as partes.                     
                             Desenvolvido pela maior empresa de divisões de base do planeta, a Angulo trás uma oportunidade única de
-                            entrar em um mercado gigantesco e que cresce em números assombrosos a cada ano.
-                                                   
+                            entrar em um mercado gigantesco e que cresce em números assombrosos a cada ano.               
                     </Typography>
                 </Box>
             </Container>

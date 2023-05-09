@@ -51,7 +51,7 @@ export function Solucoes(){
                         </Typography>
                     </Container>
                     
-                    <Container style={{display:'flex', alignItems:'center', flexDirection:'column',padding:'50px',}}className='bolas'>
+                    <Container style={{display:'flex', alignItems:'center', flexDirection:'column',padding:'50px', paddingBottom:'50px'}}className='bolas'>
                         <Image src={bet} alt="Logo angulo" style={{width:'230px' , height:'230px', borderRadius:'50%',boxShadow: '0px 0px 50px 0px rgba(255, 255, 255, 0.2)'}} className='img-bola'/>
                         <Typography  fontSize={'1.2rem'} className='tchau' >
                             Além de jogos, site de apostas somente com as principais ligas profissionais do mundo, marketplace, entre
