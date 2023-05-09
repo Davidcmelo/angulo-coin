@@ -140,12 +140,12 @@ body{
 
 /* OQUE FAZEMOS*/
 .what-h3{
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 5px;
 }
 .wtext{
-  font-size: 0.7rem;
-  padding: 5px;
+  font-size: 0.6rem;
+  padding: 3px;
   display: flex;
 }
 .bandeira{
@@ -157,23 +157,25 @@ body{
 }
 .pad{
   padding-right: 0;
+  padding-left: 0;
 }
 .colu{
   display: flex;
   flex-direction:column ;
   justify-content: center;
-  font-size: 1.2rem;
 }
 
 /* SOCIAIS*/
 .favela{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(./imagens/favela.jpg);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgb(0, 0, 0)), url(./imagens/favela.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  background-size: 100% auto;
   max-width: 100%;
+}
+.wtext2{
+  display: none;
 }
 
 .topo-social{

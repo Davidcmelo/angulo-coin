@@ -19,7 +19,7 @@ export function Social (){
                             Hoje, muitos atletas não têm condições de correr atrás dos seus sonhos devido ao caro mercado esportivo,
                             sendo assim, a Angulo dá bolsas a alguns atletas de comunidades e também criou a Tecno Favela, que
                             ensina tecnologia a moradores de comunidades do Rio de Janeiro e São Paulo desde 2020.
-                            <Typography fontSize={'1.3rem'} textAlign={'center'} lineHeight={'2'} className='wtext'>
+                            <Typography fontSize={'1.3rem'} textAlign={'center'} lineHeight={'2'} className='wtext2'>
                                 Inclusive, a Tecno Favela hoje está presente em algumas escolas públicas do Rio de Janeiro no serviço
                                 Tecno Carioca em parceria com a prefeitura do Rio de Janeiro.
                             </Typography>
