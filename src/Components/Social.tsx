@@ -10,7 +10,7 @@ export function Social (){
         <Container id="social" className='favela' maxWidth={false} style={{ display: 'flex', justifyContent: 'flex-end', boxShadow: 'inset 0 0 100px rgba(255, 255, 255, 0.2)' }}>
             <Container maxWidth={false} style={{width:'50%', margin:'0px'}} className='cont-social' >
                     <Container maxWidth={false} style={{paddingTop:'100px', paddingBottom:'50px'}} className='topo' >
-                        <Typography variant='h2' textTransform={'uppercase'} textAlign={'center'} fontWeight={'normal'} className='what-h3 topo' >
+                        <Typography variant='h2' textTransform={'uppercase'} textAlign={'center'} fontWeight={'normal'} className='topo' >
                             Projetos Sociais
                         </Typography >
                     </Container>

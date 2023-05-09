@@ -37,7 +37,7 @@ export function Carousel(){
         <Container maxWidth={false} style={{ padding:'50px',height:'95vh'}} className='cont-fundo' >
             <Container className='slide' style={{ width: '65%',maxWidth: '100%',height:'75vh',display:'flex',alignItems:'center'}} >
                 <Box className='boximg' >
-                    <AutoPlaySwipeableViews index={activeIndex} onChangeIndex={handleChangeIndex} interval={5000000000} className='cont-slide '>
+                    <AutoPlaySwipeableViews index={activeIndex} onChangeIndex={handleChangeIndex} interval={5000} className='cont-slide '>
                         <Image src={fut1} className='imgs' alt="Img angulo" style={{ width: '100%', height: '75vh', objectFit: 'cover',borderRadius:'10px' , border: '3px solid white' }}/>
                         <Image src={fut2} className='imgs' alt="Img angulo" style={{ width: '100%', height: '75vh', objectFit: 'cover',borderRadius:'10px' , border: '3px solid white'}}/>
                         <Image src={fut3} className='imgs' alt="Img angulo" style={{ width: '100%', height: '75vh', objectFit: 'cover',borderRadius:'10px', border: '3px solid white' }}/>

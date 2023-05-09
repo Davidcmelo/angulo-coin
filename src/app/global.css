@@ -83,15 +83,20 @@ body{
 
 
 
-@media screen  and (max-width:600px){
+@media screen  and (max-width:768px){
 /*SOBRE*/
   .titulo-um{
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   padding: 5px;
   
 }
+
+#sobre{
+  display: flex;
+  flex-direction: column;
+}
 .titulo-dois{
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding-top: 20px;
 }
 .box-tip{
@@ -99,10 +104,15 @@ body{
 }
 
 .imgs{
-  height: 50vh !important;
-  width: 100vw !important;
+  height: 60vh !important;
+  object-fit: cover;
+
 }
 
+.slide{
+  width: 100% !important;
+  object-fit: cover;
+}
 .seta{
   font-size: 1rem;
 }
@@ -110,11 +120,11 @@ body{
 
 .oport{
   font-size: 2rem;
-  padding-top: 10px;
+  padding-top: 100px;
 }
 
 .text{
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .cartao{
@@ -168,13 +178,18 @@ body{
 .topo{
   padding-top: 30px !important;
   padding-bottom: 10px !important;
+  font-size: 1.5rem;
 }
 
 /* SOLUÇÕES*/
+.hg-sol{
+  height: 70vh !important;
+}
 
 .what-h5{
-  font-size: 1.7rem;
-
+  font-size: 2rem;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .tchau{
@@ -211,9 +226,11 @@ body{
 
 .rot{
   font-size: 2rem;
+  padding-bottom: 70px !important;
 }
 .rotp{
-  padding-top: 10px !important;
+  padding-top: 50px !important;
+  
 }
 
 .txtroad{

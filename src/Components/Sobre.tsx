@@ -15,7 +15,7 @@ export function Sobre(){
     return(
         <Container id="sobre" maxWidth={false}  style={{display:'flex', justifyContent:'center', alignItems:'center', height:'100vh', boxShadow: 'inset 0 0 100px rgba(0, 0, 0, 0.9), 0 0 100px rgba(0, 0, 0, 0.9)'}}>
             <Container style={{display:'flex', justifyContent:'center'}}>
-                <Image src={coin} alt="Logo angulo" style={{padding:'20px', animation: 'pulse 8.5s ease-in-out infinite'}}/>
+                <Image className='logo' src={coin} alt="Logo angulo" style={{padding:'20px', animation: 'pulse 8.5s ease-in-out infinite'}}/>
             </Container>
             <Container maxWidth={false}  >
                 <Box style={{border: '4px double white', borderRadius:'10px', boxShadow: '0px 0px 100px 0px rgba(255, 255, 255, 0.3)'}}  >
