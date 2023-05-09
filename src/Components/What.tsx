@@ -14,7 +14,7 @@ export function What(){
     return(
         <Container id="what" maxWidth={false} style={{ display:'flex', paddingTop:'30px',textAlign:'center', boxShadow: 'inset 0 0 100px rgba(0, 0, 0, 0.9), 0 0 100px rgba(0, 0, 0, 0.9)',paddingBottom:'50px' }}>
             <Container className='pad'>
-                <Typography variant='h3' textTransform={'uppercase'} padding={5} className='what-h3'>
+                <Typography variant='h3' textTransform={'uppercase'} padding={5} className='what-hss'>
                     Oque fazemos
                 </Typography>
                

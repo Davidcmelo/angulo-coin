@@ -18,7 +18,7 @@ export function Market(){
                 </Typography>
             </Container>
             <Container style={{display:'flex', justifyContent:'center'}}>
-                <Typography textAlign={'center'} padding={5} width={'80%'} fontSize='1.5rem' className='text'>
+                <Typography textAlign={'center'} padding={5} width={'100%'} fontSize='1.5rem' className='text'>
                     Um mercado trilionário e uma empresa com atuação de 13 anos no mercado sulamericano e europeu,
                     trabalhando desde os principais clubes profissionais até as divisões de base e esportes sociais, dando
                     oportunidade aos menos favorecidos.
