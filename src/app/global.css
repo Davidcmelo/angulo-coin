@@ -38,6 +38,8 @@ body{
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+  background-size: 100% auto;
+  max-width: 100%;
 
 }
 
@@ -170,6 +172,8 @@ body{
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
+  background-size: 100% auto;
+  max-width: 100%;
 }
 
 .topo-social{
