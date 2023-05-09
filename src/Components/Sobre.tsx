@@ -13,7 +13,7 @@ import '@fontsource/roboto/700.css';
 
 export function Sobre(){
     return(
-        <Container id="sobre" maxWidth={false}  style={{display:'flex', justifyContent:'center', alignItems:'center', height:'100vh', boxShadow: 'inset 0 0 100px rgba(0, 0, 0, 0.9), 0 0 100px rgba(0, 0, 0, 0.9)'}}>
+        <Container id="sobre" maxWidth={false}  style={{display:'flex', justifyContent:'center', alignItems:'center', boxShadow: 'inset 0 0 100px rgba(0, 0, 0, 0.9), 0 0 100px rgba(0, 0, 0, 0.9)'}}>
             <Container style={{display:'flex', justifyContent:'center'}}>
                 <Image className='logo' src={coin} alt="Logo angulo" style={{padding:'20px', animation: 'pulse 8.5s ease-in-out infinite'}}/>
             </Container>

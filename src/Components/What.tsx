@@ -12,7 +12,7 @@ import trofeu from '../app/imagens/trofeu.png'
 
 export function What(){
     return(
-        <Container id="what" maxWidth={false} style={{height:'70%', display:'flex', paddingTop:'30px',textAlign:'center', boxShadow: 'inset 0 0 100px rgba(0, 0, 0, 0.9), 0 0 100px rgba(0, 0, 0, 0.9)'}}>
+        <Container id="what" maxWidth={false} style={{ display:'flex', paddingTop:'30px',textAlign:'center', boxShadow: 'inset 0 0 100px rgba(0, 0, 0, 0.9), 0 0 100px rgba(0, 0, 0, 0.9)'}}>
             <Container className='pad'>
                 <Typography variant='h3' textTransform={'uppercase'} padding={5} className='what-h3'>
                     Oque fazemos

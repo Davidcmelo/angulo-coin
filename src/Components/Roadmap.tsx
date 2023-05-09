@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 
 export function Roadmap(){
     return(
-        <Container style={{textAlign:'center', height:'90vh'}}>
+        <Container style={{textAlign:'center'}}>
             <Container style={{paddingTop:'100px'}} className='rotp'>
                 <Typography textTransform={'uppercase'} variant='h2' className='rot'>
                     Roteiro
@@ -46,7 +46,7 @@ export function Roadmap(){
                 </Typography>
                 <Typography className='txtroad'>Fevereiro: Angulo Bet</Typography>
                 <Typography className='txtroad'>Julho: Angulo Football League</Typography>
-                <Typography variant='h5' className='txtroad'>
+                <Typography variant='h5' className='txtroad' style={{paddingBottom:'50px'}}>
                     Esteja com os maiores e em todas as partes do esporte
                 </Typography>
             </Container>

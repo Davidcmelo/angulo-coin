@@ -13,7 +13,7 @@ import anguloapp from '../app/imagens/anguloapp.jpeg'
 
 export function Solucoes(){
     return(
-        <Container style={{height:'100vh'}}  maxWidth={false} className='hg-sol'>
+        <Container   maxWidth={false} className='hg-sol'>
             <Container>
                 <Typography variant='h2' textTransform={'uppercase'} textAlign={'center'} paddingTop={'50px'} fontWeight={'normal'} className='what-h5'>
                     nossas Soluções

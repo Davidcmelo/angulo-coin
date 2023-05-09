@@ -15,7 +15,7 @@ body{
 }
 
 .market-fundo{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./imagens/futebol.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./imagens/futebol.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

@@ -11,7 +11,7 @@ import crianca from '../app/imagens/crianca.jpg'
 
 export function Market(){
     return(
-        <Container id="market" className='market-fundo' maxWidth={false} style={{height:'100vh'}} >
+        <Container id="market" className='market-fundo' maxWidth={false}  >
             <Container>
                 <Typography variant='h2' textTransform={'uppercase'} textAlign={'center'} paddingTop={10} fontWeight={'normal'} className='oport'>
                     oportunidades

@@ -34,7 +34,7 @@ export function Carousel(){
     };
  
     return(
-        <Container maxWidth={false} style={{ padding:'50px',height:'95vh'}} className='cont-fundo' >
+        <Container maxWidth={false} style={{ padding:'50px'}} className='cont-fundo' >
             <Container className='slide' style={{ width: '65%',maxWidth: '100%',height:'75vh',display:'flex',alignItems:'center'}} >
                 <Box className='boximg' >
                     <AutoPlaySwipeableViews index={activeIndex} onChangeIndex={handleChangeIndex} interval={5000} className='cont-slide '>
