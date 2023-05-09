@@ -140,12 +140,11 @@ body{
 
 /* OQUE FAZEMOS*/
 .what-h3{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   padding: 5px;
 }
 .wtext{
-  font-size: 0.6rem;
-  padding: 3px;
+  font-size: 0.5rem;
   display: flex;
 }
 .bandeira{
@@ -205,13 +204,14 @@ body{
 }
 
 .img-bola{
-  height: 70px !important;
+  height: 50px !important;
+  width: 50px !important;
   padding: 2px;
 }
 .img-bolae{
-  height: 70px !important;
+  height: 50px !important;
   padding: 2px;
-  width: 70px !important ; 
+  width: 50px !important ; 
 }
 
 .bolas{
