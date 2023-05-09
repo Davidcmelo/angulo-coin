@@ -83,7 +83,7 @@ body{
 
 
 
-@media screen  and (max-width:768px){
+@media screen  and (max-width:600px){
 /*SOBRE*/
   .titulo-um{
   font-size: 0.7rem;
